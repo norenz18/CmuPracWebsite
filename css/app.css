@@ -1,0 +1,21 @@
+body {
+  margin: 50px;
+  background-color: chocolate;
+}
+.modal-overlay {
+  visibility: hidden;
+  z-index: -10;
+}
+.open-modal {
+  visibility: visible;
+  z-index: 10;
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+/* .change {
+  color: blue;
+  height: 300px;
+  width: 400px;
+  border: 5px solid black;
+} */

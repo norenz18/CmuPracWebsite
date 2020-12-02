@@ -1,0 +1,141 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* variables */
+:root {
+  --primary-color: #f0a53e;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+@media (width: 450px) {
+  .socMedIcons {
+    color: white;
+  }
+}
+
+/*
+.nav-header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    box-shadow: 0 2px 20px -9px gray;
+}
+.nav-header h1{
+
+    color: var(--primary-color);
+    font-size: 26px;
+    font-weight: 500;
+
+}
+.nav-header .nav-link ul{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+  
+}
+.nav-header .nav-link li{
+
+    padding: 0 20px;
+    
+      
+}
+.nav-header .nav-link li a{
+
+    color: var(--primary-color);
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+
+
+.hero{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    background: var(--bg-color);
+  
+   
+    
+}   
+.hero .hero-img h2{
+
+    text-align: center;
+    color: var(--primary-color);
+    margin: 50px 0 0 0;
+    font-size: 28px;
+    font-weight: 400;
+
+}
+.hero .hero-img img{
+
+   
+    height: 300px;
+    width: 300px;
+  
+
+}
+
+*/
+
+/*
+
+@media screen and (max-width: 768px){
+
+    .nav-header{
+        flex-direction: column;
+        height: 20vh;
+    }
+    .nav-logo h1{
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+  
+    .nav-link ul{
+     
+        margin: 0 10px;
+        padding: 0;
+
+    }
+    .nav-header .nav-link li{
+
+         padding-right: 5px;
+         padding-left: 5px;
+       
+    }
+    .nav-header .nav-link li a{
+
+        font-size: 14px;
+    }
+    .hero .hero-img img{
+
+        width: 200px;
+        height: 200px;
+
+    }
+
+}
+*/

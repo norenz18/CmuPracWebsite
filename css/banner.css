@@ -1,0 +1,40 @@
+.banner-section {
+  height: 600px;
+}
+.banner-section h1 {
+  font-size: 46px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 5px;
+  border-bottom: 2px solid var(--primary-color);
+}
+.banner-section h1 span {
+  color: var(--primary-color);
+}
+
+.banner {
+  background-image: url("../img/bannercmu.png");
+  height: 400px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 100px 0;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.footer .socMedIconsFooter a {
+  color: black;
+}
+.footer .socMedIconsFooter a:hover {
+  color: #d1459b;
+}
+.footer #footerText {
+  color: gray;
+  font-size: 14px;
+}
