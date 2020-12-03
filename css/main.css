@@ -12,6 +12,7 @@
   font-weight: 700;
   text-align: center;
   letter-spacing: 5px;
+  margin-bottom: 50px;
   border-bottom: 2px solid var(--primary-color);
 }
 .main h1 span {

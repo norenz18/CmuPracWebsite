@@ -3,6 +3,19 @@ body {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  background: linear-gradient(
+    135deg,
+    #e2e2e2 0%,
+    #d1d1d1 1%,
+    #ffffff 6%,
+    #ffffff 6%,
+    #ffffff 59%,
+    #ffffff 59%,
+    #d1d1d1 67%,
+    #ffffff 76%,
+    #ffffff 81%,
+    #ffffff 87%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 /* variables */
