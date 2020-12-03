@@ -19,11 +19,6 @@ li {
 a {
   text-decoration: none;
 }
-@media (width: 450px) {
-  .socMedIcons {
-    color: white;
-  }
-}
 
 /*
 .nav-header{

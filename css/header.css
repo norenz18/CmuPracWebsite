@@ -71,3 +71,30 @@
   color: #f1f1f1;
   transform: rotate(90deg);
 }
+@media all and (max-width: 521px) {
+  #top-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    position: relative;
+  }
+  #top-header .socMedIcons {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+  }
+  #top-header .portals {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+  }
+}
